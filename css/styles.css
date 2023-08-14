@@ -1,0 +1,154 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: #fff;
+}
+/* Скидання */
+ul {
+  list-style-type: none;
+}
+/* h1,
+h2,
+h3,
+p {
+  margin: 0;
+} */
+
+/* Загальні */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+button {
+  cursor: pointer;
+  color: inherit;
+  background-color: transparent;
+  border: 0;
+}
+.section-title {
+  color: #2e2f42;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.111em;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+.list-item-title {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2em;
+  letter-spacing: 0.4px;
+}
+.list-item-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5em;
+  letter-spacing: 0.32px;
+}
+
+/* Хедер */
+/* Навігація та лого */
+.logo {
+  color: #4d5ae5;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17em;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+.mod-color-dark {
+  color: #2e2f42;
+}
+.logo:hover,
+.logo:focus {
+  color: #404bbf;
+}
+.list-item-link {
+  color: #2e2f42;
+  /* font-size: 16px; */
+  font-weight: 500;
+  line-height: 1.5em;
+  letter-spacing: 0.32px;
+}
+.list-item-link:hover,
+.list-item-link:focus {
+  color: #404bbf;
+}
+.header-contacts {
+  font-style: normal;
+}
+.contacts-item-link {
+  /* font-size: 16px; */
+  font-weight: 400;
+  line-height: 1.5em;
+  letter-spacing: 0.32px;
+}
+.contacts-item-link:hover,
+.contacts-item-link:focus {
+  color: #404bbf;
+}
+
+/* Hero-секція */
+
+.hero {
+  background-color: #2e2f42;
+}
+.hero-title {
+  color: #fff;
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07143em;
+  letter-spacing: 1.12px;
+}
+
+.hero-btn {
+  color: #fff;
+  /* font-size: 16px; */
+  font-weight: 500;
+  line-height: 1.5em;
+  letter-spacing: 0.64px;
+  background-color: #4d5ae5;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #404bbf;
+}
+
+/* Benefits-секція */
+
+/* Team-секція */
+.our-team {
+  background-color: #f4f4fd;
+}
+.team-list-item {
+  background: #fff;
+  text-align: center;
+}
+/* Portfolio-секція */
+.portfolio-list-item {
+  background: #fff;
+}
+
+/* Футер */
+.footer {
+  background-color: #2e2f42;
+}
+.mod-color-light {
+  color: #f4f4fd;
+}
+.footer-text {
+  color: #f4f4fd;
+  font-weight: 400;
+  line-height: 1.5em;
+  letter-spacing: 0.32px;
+}
