@@ -112,15 +112,15 @@ img {
   width: 261px;
   gap: 40px;
 }
-.nav-list-item {
-  padding: 24px 0;
-}
+
 .list-item-link {
   color: #2e2f42;
   /* font-size: 16px; */
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
+  display: inline-block;
 }
 .list-item-link:hover,
 .list-item-link:focus {
