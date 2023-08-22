@@ -10,17 +10,32 @@ body {
   background-color: #fff;
 }
 /* Скидання */
-ul {
-  list-style-type: none;
-}
-/* h1,
+
+h1,
 h2,
 h3,
+h4,
+h5,
+h6,
 p {
   margin: 0;
-} */
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
 
 /* Загальні */
+.container {
+  max-width: 1128px;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
 a {
   text-decoration: none;
   color: inherit;
