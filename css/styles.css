@@ -113,8 +113,7 @@ img {
   gap: 40px;
 }
 .nav-list-item {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px 0;
 }
 .list-item-link {
   color: #2e2f42;
